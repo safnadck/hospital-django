@@ -19,6 +19,61 @@
       <link rel="stylesheet"
        href="{% static '/css/style.css' %}">
 
+       <style>
+        .hero-section {
+          background: #f7f7f7;
+          padding: 50px 0;
+          text-align: center;
+        }
+        .hero-section h1 {
+          font-size: 3rem;
+          color: #343a40;
+        }
+        .card-body h5 {
+          color: #007bff;
+        }
+        .section-title {
+          text-align: center;
+          margin-bottom: 50px;
+        }
+        .team-member {
+          text-align: center;
+        }
+        .team-member img {
+          border-radius: 50%;
+          width: 150px;
+          height: 150px;
+        }
+
+        .contact-section {
+          padding: 60px 0;
+        }
+        .contact-info {
+          background: #f8f9fa;
+          padding: 40px;
+          border-radius: 8px;
+        }
+        .contact-info h4 {
+          color: #007bff;
+        }
+        .map-container {
+          position: relative;
+          padding-bottom: 56.25%; /* 16:9 aspect ratio */
+          height: 0;
+          overflow: hidden;
+          max-width: 100%;
+          border-radius: 8px;
+          margin-bottom: 30px;
+        }
+        .map-container iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+      </style>
+
   </head>
 
   <body>
@@ -64,7 +119,7 @@
     
 	
 	
-    <section class="fixed-bottom">
+    <section class="">
       <footer class="pt-2 pb-2  bg-primary text-light">
         <div class="container">
           <div class="row align-items-center">
